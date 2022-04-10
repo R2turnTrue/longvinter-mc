@@ -1,0 +1,9 @@
+name: longvinter
+version: 1.0.0
+api-version: 1.17
+main: xyz.r2turntrue.longvinter.LongvinterPlugin
+load: STARTUP
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.6.10
+  - org.jetbrains.kotlin:kotlin-reflect:1.6.10

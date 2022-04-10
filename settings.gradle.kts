@@ -1,1 +1,2 @@
-rootProject.name = "sample"
+rootProject.name = "longvinter"
+include("longvinter-plugin")
