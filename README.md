@@ -5,6 +5,7 @@ A longvinter plugin for Paper (or it's fork)
 ## TO-DO List
 
 - [X] Island generator
+- [ ] Stats (mk)
 - [ ] Generate some structures
     - [ ] Store
     - [ ] Chest
