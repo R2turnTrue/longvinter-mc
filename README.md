@@ -6,11 +6,13 @@ A longvinter plugin for Paper (or it's fork)
 
 - [X] Island generator
 - [ ] Generate some structures
+    - [ ] Store
+    - [ ] Chest
+      - [ ] Chest auto-fill (10m)
+    - [ ] Outpost
 - [ ] Tents, Tent upgrades
   - [ ] Upgrades
   - [ ] Tent lifetime (48H)
-- [ ] Store
-- [ ] Outpost
 - [ ] Guns
 - [ ] Wood generation
 - [ ] Hide player info (Name, Skin)
