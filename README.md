@@ -8,13 +8,18 @@ A longvinter plugin for Paper (or it's fork)
 - [ ] Stats (mk)
 - [ ] Generate some structures
     - [ ] Store
+      - [ ] General Store
+      - [ ] Outpost Store
+      - [ ] Store Street
     - [ ] Chest
       - [ ] Chest auto-fill (10m)
     - [ ] Outpost
+      - [ ] Spawn Outpost
+      - [ ] Other Outposts
 - [ ] Tents, Tent upgrades
   - [ ] Upgrades
   - [ ] Tent lifetime (48H)
-- [ ] Guns
+- [ ] Gun
 - [ ] Wood generation
 - [ ] Hide player info (Name, Skin)
 - [ ] Sit
