@@ -8,3 +8,4 @@ libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:1.6.10
   - org.jetbrains.kotlin:kotlin-reflect:1.6.10
   - net.kyori:adventure-text-minimessage:4.10.1
+  - org.jetbrains.exposed:exposed-jdbc:0.38.1

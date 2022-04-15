@@ -9,6 +9,7 @@ import org.bukkit.event.entity.EntityDamageEvent
 import org.bukkit.event.entity.EntityToggleSwimEvent
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerQuitEvent
+import xyz.r2turntrue.longvinter.util.asMini
 
 class LongvinterRules: Listener {
 
@@ -41,7 +42,7 @@ class LongvinterRules: Listener {
                     "<white>롱빈터 실험버전에 오신걸 환영합니다!\n" +
                     "일부 기본 기능만 완성된 상태이며, 정상적인 플레이가\n" +
                     "불가능하실 수 있습니다! 진행도는 github의 todo\n" +
-                    "항목을 확인하세요!\n")
+                    "항목을 확인하세요!\n".asMini())
             player.gameMode = GameMode.ADVENTURE
         }
     }

@@ -24,6 +24,7 @@ allprojects {
         compileOnly("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
 
         implementation("net.kyori:adventure-text-minimessage:4.10.1")
+        implementation("org.jetbrains.exposed:exposed-jdbc:0.38.1")
         implementation(kotlin("stdlib"))
     }
 
@@ -57,6 +58,10 @@ allprojects {
             from(sourceSets["main"].output)
             archiveBaseName.set(project.name)
             archiveVersion.set("") // For bukkit plugin update
+
+            dependencies {
+                include(project(":longvinter-core"))
+            }
 
             doLast {
                 copy {

@@ -46,7 +46,7 @@ class LongvinterChunkGenerator: ChunkGenerator() {
                         chunk.setBlock(x, i, z, Material.WATER)
                     }
                 } else {
-                    chunk.setBlock(x, currentHeight, z, Material.GREEN_CONCRETE)
+                    chunk.setBlock(x, currentHeight, z, if(currentHeight == 51) Material.SAND else Material.GREEN_CONCRETE)
                 }
                 chunk.setBlock(x, currentHeight-1, z, if(!isWater) Material.DIRT else Material.WATER)
                 for (i in currentHeight - 2 downTo 1) {
